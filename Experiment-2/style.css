@@ -1,0 +1,152 @@
+/* General Page Styling */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #eef1f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* Navbar */
+.navbar {
+  background: #00357d;
+  text-align: center;
+  padding: 12px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Section Headings */
+h2 {
+  color: #004aad;
+  margin-top: 35px;
+}
+
+/* Profile Box */
+.profile-box {
+  background: #f9f9f9;
+  padding: 18px;
+  border-left: 5px solid #004aad;
+  border-radius: 8px;
+}
+
+/* Forms */
+.form-box {
+  margin-top: 15px;
+}
+
+input, select, textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: 220px;
+  background: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  background: #00357d;
+}
+
+/* Job Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #004aad;
+  color: white;
+}
+
+td {
+  background: #fafafa;
+}
+
+/* Apply Button */
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 18px;
+  background: #222;
+  color: white;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media(max-width: 600px) {
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  input, select, textarea {
+    width: 98%;
+  }
+}
